@@ -8,12 +8,12 @@ st.set_page_config(
     layout="centered"
 )
 
-# Custom CSS for Professional but Cute Styling
+# Custom CSS for Professional but Cute Styling with Soft Pink Background
 st.markdown("""
     <style>
         body {
             font-family: "Segoe UI", sans-serif;
-            background-color: #FAFAFA;
+            background-color: #FFEFF6; /* Soft Pink Background */
         }
         .title {
             font-size: 2.8em;
@@ -31,7 +31,7 @@ st.markdown("""
         .upload-box {
             border: 2px dashed #FFB6C1;
             border-radius: 12px;
-            background-color: #FFFAF3;
+            background-color: #FFFFFF; /* White Upload Box */
             padding: 30px;
             text-align: center;
         }
